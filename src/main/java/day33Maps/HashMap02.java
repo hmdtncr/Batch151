@@ -1,0 +1,27 @@
+package day33Maps;
+
+import java.util.HashMap;
+     // Java Buckets'lerin içinde "LinkedList" kullanır'
+public class HashMap02 {
+    public static void main(String[] args) {
+    /*
+    HashMap<String, String> capitals=new HashMap<>(); olusturdugumuzda Java memoryde 16 kutucuk olusturur
+  //Java Hashing Tecnic kullanarak herbir "entry" icin "HashCode" uretir ve bu kodu 16'ya boler.
+  //Bucket'a gider, kalan sayi'nin bulundugu index'e gider ve sirayla "HashCode", "key" ve "value" u koyar.
+  //Bir bucket'a istediginiz kadar entry koyabilirsiniz
+  //Java bucket'larin icinde LinkedList kullanir.
+  //Eger daha once ayni entry ile bir "HashCode" uretildiyse Java tekrar bir "HashCode" uretmez ama "value" degisti ise "overwrite" islemi yapar.
+     //Java 12 bucket doldugunda yeni 16 adet bucket verir.
+     */
+        //HashMap arkasında çalışan mekanizma nasıl çalışır?
+        HashMap<String, String > capitals = new HashMap<>();
+
+        capitals.put("USA", "Washington");
+        capitals.put("Italy", "Roma");
+        capitals.put("Turkiye", "Ankara");
+        capitals.put("Turkiye", "Istanbul");
+
+
+
+    }//main
+}

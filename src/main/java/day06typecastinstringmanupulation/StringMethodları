@@ -1,0 +1,10 @@
+
+         STRING METHODLARI
+
+    1.  toUpperCase()
+         1) Tum harfleri buyuk harfe cevirir.
+         2) Bize String return eder.
+
+       2. toLowerCase()
+         1) Tum harfleri kucuk harfe cevirir.
+         2) Bize String return eder.
